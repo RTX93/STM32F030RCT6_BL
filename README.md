@@ -1,6 +1,8 @@
 # STM32F030RCT6_BL
 
-
+REFER HOST APPLICATION
+----------------------
+https://github.com/hi3520/STM32_Firmware_Uploader_linux
 
 
 BOOTLOADER NOTE START:
