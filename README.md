@@ -27,7 +27,7 @@ Application Size: 256K - 20K
 
 
 
-Step #2 Update "Step #1" Details & Over write Below Section into Linker File Script
+Step #2 Based On "Step #1" Details & Modify Below Section and Update into Linker File Script
 --
 
 
@@ -55,7 +55,7 @@ FIRMWARE NOTE START:
 Step #1  The RAM & FLASH LENGTH are different for each ChipSet of ST. So refer data sheet modify as per your need's
 ---
 
-Step #2 Update "Step #1" Details & Over write Below Section into Linker File Script
+Step #2 Based On "Step #1" Details & Modify Below Section and Update into Linker File Script
 ---
 
 	 /* Memories Definition */
@@ -72,7 +72,7 @@ Step #2 Update "Step #1" Details & Over write Below Section into Linker File Scr
 	REGION_ALIAS("FLASH", FIRMWARE );
 
 
-Step #3 Copy below variables in main.c as global vairables(Available within the '/*{{{*/ /*}}}*/' )
+Step #3 Copy below variables in main.c as global vairables 
 ---
 
 extern uint32_t _main_app_start_address;
